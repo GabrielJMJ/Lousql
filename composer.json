@@ -1,0 +1,12 @@
+{
+    "name": "gabrieljmj/lousql",
+    "autoload": {
+        "psr-4": {
+            "Gabrieljmj\\Lousql\\": "src/Gabrieljmj/Lousql/",
+            "Test\\Gabrieljmj\\Lousql\\": "tests/Gabrieljmj/Lousql/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.6.*"
+    }
+}

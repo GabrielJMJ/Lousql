@@ -1,0 +1,4 @@
+vendor/
+compoer.phar
+composer.lock
+test.php
