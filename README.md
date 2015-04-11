@@ -43,7 +43,7 @@ $drop =
 
 $pdo->exec($drop);
 ```
-More the one
+More than one
 ```php
 $buiilder
         ->createTable('users')
