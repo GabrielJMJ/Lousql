@@ -62,7 +62,7 @@ class Builder implements BuilderInterface
     private function addQuery($query)
     {
         $this->queries[] = $query;
-        return $this->queries[count($this->queries) - 1];
+        return end($this->queries);
     }
 
     /**
