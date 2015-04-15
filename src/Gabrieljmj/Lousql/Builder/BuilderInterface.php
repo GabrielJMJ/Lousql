@@ -25,4 +25,11 @@ interface BuilderInterface
      * @param string $table
      */
     public function alterTable($table);
+
+    /**
+     * Returns all created queries
+     *
+     * @return array
+     */
+    public function getQueries();
 }
